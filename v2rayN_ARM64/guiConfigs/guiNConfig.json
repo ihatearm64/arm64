@@ -1,0 +1,133 @@
+{
+  "logEnabled": false,
+  "loglevel": "warning",
+  "indexId": "4778955126469701998",
+  "muxEnabled": false,
+  "sysProxyType": 1,
+  "autoRun": false,
+  "enableStatistics": false,
+  "keepOlderDedupl": false,
+  "statisticsFreshRate": 1,
+  "remoteDNS": null,
+  "domainStrategy4Freedom": null,
+  "defAllowInsecure": false,
+  "defFingerprint": null,
+  "defUserAgent": null,
+  "domainStrategy": "AsIs",
+  "domainMatcher": null,
+  "routingIndexId": "4773527103370588185",
+  "enableRoutingAdvanced": true,
+  "ignoreGeoUpdateCore": false,
+  "systemProxyExceptions": null,
+  "systemProxyAdvancedProtocol": null,
+  "autoUpdateInterval": 10,
+  "autoUpdateSubInterval": 10,
+  "checkPreReleaseUpdate": false,
+  "enableSecurityProtocolTls13": false,
+  "trayMenuServersLimit": 20,
+  "tunModeItem": {
+    "enableTun": false,
+    "showWindow": true,
+    "strictRoute": false,
+    "stack": null,
+    "mtu": 9000,
+    "customTemplate": null,
+    "bypassMode": true,
+    "directIP": null,
+    "directProcess": null,
+    "proxyIP": null,
+    "proxyProcess": null
+  },
+  "kcpItem": {
+    "mtu": 1350,
+    "tti": 50,
+    "uplinkCapacity": 12,
+    "downlinkCapacity": 100,
+    "congestion": false,
+    "readBufferSize": 2,
+    "writeBufferSize": 2
+  },
+  "grpcItem": {
+    "idle_timeout": 60,
+    "health_check_timeout": 20,
+    "permit_without_stream": false,
+    "initial_windows_size": 0
+  },
+  "uiItem": {
+    "enableAutoAdjustMainLvColWidth": true,
+    "mainWidth": 1280.0,
+    "mainHeight": 752.0,
+    "mainGirdHeight1": 282.0,
+    "mainGirdHeight2": 282.0,
+    "colorModeDark": false,
+    "colorPrimaryName": null,
+    "currentLanguage": "zh-Hans",
+    "currentFontFamily": null,
+    "currentFontSize": 0,
+    "enableDragDropSort": false,
+    "doubleClick2Activate": false,
+    "autoHideStartup": true,
+    "mainLvColWidth": {
+      "def": 33,
+      "configType": 86,
+      "remarks": 180,
+      "address": 156,
+      "port": 57,
+      "security": 144,
+      "network": 81,
+      "streamSecurity": 53,
+      "subRemarks": 81,
+      "delay": 82,
+      "speed": 120,
+      "todayDown": 20,
+      "todayUp": 20,
+      "totalDown": 20,
+      "totalUp": 20
+    }
+  },
+  "constItem": {
+    "speedTestUrl": "http://cachefly.cachefly.net/10mb.test",
+    "speedPingTestUrl": "https://www.google.com/generate_204",
+    "defIEProxyExceptions": "localhost;127.*;10.*;172.16.*;172.17.*;172.18.*;172.19.*;172.20.*;172.21.*;172.22.*;172.23.*;172.24.*;172.25.*;172.26.*;172.27.*;172.28.*;172.29.*;172.30.*;172.31.*;192.168.*"
+  },
+  "inbound": [
+    {
+      "localPort": 10808,
+      "protocol": "socks",
+      "udpEnabled": true,
+      "sniffingEnabled": true,
+      "routeOnly": false,
+      "allowLANConn": false,
+      "newPort4LAN": false,
+      "user": null,
+      "pass": null
+    }
+  ],
+  "globalHotkeys": null,
+  "coreTypeItem": [
+    {
+      "configType": 1,
+      "coreType": 2
+    },
+    {
+      "configType": 2,
+      "coreType": 2
+    },
+    {
+      "configType": 3,
+      "coreType": 2
+    },
+    {
+      "configType": 4,
+      "coreType": 2
+    },
+    {
+      "configType": 5,
+      "coreType": 2
+    },
+    {
+      "configType": 6,
+      "coreType": 2
+    }
+  ]
+}

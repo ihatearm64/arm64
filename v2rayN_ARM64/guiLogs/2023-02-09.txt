@@ -1,0 +1,33 @@
+2023-02-09 23:46:57.0793-INFO v2rayN start up | v2rayN - V6.9 - 2023/02/09 | C:\Users\shine\Documents\v2rayN-6.9\v2rayN\v2rayN\bin\Release\net6.0-windows\v2rayN.exe
+2023-02-09 23:46:57.1093-DEBUG Could not find file 'C:\Users\shine\Documents\v2rayN-6.9\v2rayN\v2rayN\bin\Release\net6.0-windows\guiConfigs\guiNConfig.json'.,Could not find file 'C:\Users\shine\Documents\v2rayN-6.9\v2rayN\v2rayN\bin\Release\net6.0-windows\guiConfigs\guiNConfig.json'.
+2023-02-09 23:46:57.2189-DEBUG    at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path)
+   at v2rayN.Utils.LoadResource(String res) in C:\Users\shine\Documents\v2rayN-6.9\v2rayN\v2rayN\Tool\Utils.cs:line 75
+2023-02-09 23:47:51.6634-DEBUG The operation was canceled.,The operation was canceled.
+2023-02-09 23:47:51.6634-DEBUG    at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at v2rayN.Base.HttpClientHelper.GetAsync(HttpClient client, String url, CancellationToken token) in C:\Users\shine\Documents\v2rayN-6.9\v2rayN\v2rayN\Base\HttpClientHelper.cs:line 52
+   at v2rayN.Handler.DownloadHandle.DownloadStringAsync(String url, Boolean blProxy, String userAgent) in C:\Users\shine\Documents\v2rayN-6.9\v2rayN\v2rayN\Handler\DownloadHandle.cs:line 171
+2023-02-09 23:47:51.6634-ERROR System.IO.IOException: The read operation failed, see inner exception.
+2023-02-09 23:47:51.6781-INFO StatusCode error: https://api.github.com/repos/v2fly/v2ray-core/releases
+2023-02-09 23:47:59.4445-INFO UpdateTaskRun
+2023-02-09 23:49:36.7150-DEBUG 由于目标计算机积极拒绝，无法连接。 [::ffff:127.0.0.1]:10809 (127.0.0.1:10809),由于目标计算机积极拒绝，无法连接。 [::ffff:127.0.0.1]:10809 (127.0.0.1:10809)
+2023-02-09 23:49:36.7150-DEBUG    at System.Net.HttpWebRequest.GetResponse()
+   at v2rayN.Handler.DownloadHandle.GetRealPingTime(String url, WebProxy webProxy, Int32 downloadTimeout, Int32& responseTime) in C:\Users\shine\Documents\v2rayN-6.9\v2rayN\v2rayN\Handler\DownloadHandle.cs:line 229
+2023-02-09 23:49:36.7150-ERROR System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 [::ffff:127.0.0.1]:10809 (127.0.0.1:10809)
+2023-02-09 23:54:56.2009-DEBUG 由于目标计算机积极拒绝，无法连接。 [::ffff:127.0.0.1]:10809 (127.0.0.1:10809),由于目标计算机积极拒绝，无法连接。 [::ffff:127.0.0.1]:10809 (127.0.0.1:10809)
+2023-02-09 23:54:56.2009-DEBUG    at System.Net.HttpWebRequest.GetResponse()
+   at v2rayN.Handler.DownloadHandle.GetRealPingTime(String url, WebProxy webProxy, Int32 downloadTimeout, Int32& responseTime) in C:\Users\shine\Documents\v2rayN-6.9\v2rayN\v2rayN\Handler\DownloadHandle.cs:line 229
+2023-02-09 23:54:56.2009-ERROR System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。 [::ffff:127.0.0.1]:10809 (127.0.0.1:10809)
+2023-02-09 23:55:37.9132-DEBUG The operation was canceled.,The operation was canceled.
+2023-02-09 23:55:37.9132-DEBUG    at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at v2rayN.Base.HttpClientHelper.GetAsync(HttpClient client, String url, CancellationToken token) in C:\Users\shine\Documents\v2rayN-6.9\v2rayN\v2rayN\Base\HttpClientHelper.cs:line 52
+   at v2rayN.Handler.DownloadHandle.DownloadStringAsync(String url, Boolean blProxy, String userAgent) in C:\Users\shine\Documents\v2rayN-6.9\v2rayN\v2rayN\Handler\DownloadHandle.cs:line 171
+2023-02-09 23:55:37.9132-ERROR System.IO.IOException: The read operation failed, see inner exception.
+2023-02-09 23:55:37.9132-INFO StatusCode error: https://api.github.com/repos/XTLS/Xray-core/releases
